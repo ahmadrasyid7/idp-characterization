@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true" failOnWarning="true" failOnRisky="true" failOnSkipped="true">
+    <testsuites>
+        <testsuite name="harness">
+            <directory>Unit</directory>
+        </testsuite>
+        <testsuite name="legacy-http">
+            <directory>Http</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
